@@ -2,7 +2,7 @@
 
 ## Colab
 
-### Download Notebook as PDF (jupter generated)
+### Download Notebook as PDF (jupyter generated)
 ```bash
 !apt-get install texlive texlive-xetex texlive-latex-extra pandoc
 !pip install pypandoc
