@@ -13,3 +13,7 @@ Each activity has an associated layout file. The activity and the layout are con
 ### AppCompatActivity
 
 AppCompatActivity is a subclass of Activity that supports all modern Android features while providing backward compatibility with older versions of Android. To make your app available to the largest number of devices and users possible, always use AppCompatActivity.
+
+### lateinit
+
+The `lateinit` keyword promises the Kotlin compiler that the variable will be initialized before the code calls any operations on it. Therefore we don't need to initialize the variable to null here, and we can treat it as a non-nullable variable when we use it. It is a best practice to use lateinit with fields that hold views in just this way.
