@@ -14,4 +14,4 @@ Repo for stuff I need to refer, useful snippets, learning etc.  Inspired by [Sph
 * [Python](/py)
 * [React](/react)
 * [Vue](/vue)
-* [Other](/other)# 
+* [Other](/other)
