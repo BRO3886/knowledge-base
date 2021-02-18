@@ -10,6 +10,7 @@ Repo for stuff I need to refer, useful snippets, learning etc.  Inspired by [Sph
 * [Go](/go)
 * [Javascript](/js)
 * [Kotlin](/kt)
+* [ML](/ML)
 * [Node](/node)
 * [Python](/py)
 * [React](/react)
