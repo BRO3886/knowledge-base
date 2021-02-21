@@ -11,6 +11,12 @@ Some random facts and info, which can be useful for people just starting out wit
   - [ScrollView](#scrollview)
   - [LinearLayout](#linearlayout)
   - [ViewGroup](#viewgroup)
+  - [Constraint Layout](#constraint-layout)
+    - [Constraints](#constraints)
+  - [Why Data Binding](#why-data-binding)
+    - [Why not findViewById](#why-not-findviewbyid)
+    - [How does databinding work?](#how-does-databinding-work)
+    - [Data Binding Benefits](#data-binding-benefits)
 
 ### No main.kt?
 
@@ -59,3 +65,21 @@ ViewGroup is a view that can contain other views. LinearLayout and ScrollView ar
 A `ConstraintLayout` is a `ViewGroup` that allows you to position and size child views in a flexible way. A ConstraintLayout allows you to create large, complex layouts with flat view hierarchies (no nested view groups). To build a ConstraintLayout, you can use the Layout Editor to add constraints, and to drag-and-drop views. You don't need to edit the XML
 #### Constraints
 A constraint is a connection or alignment between two UI elements. Each constraint connects or aligns one view to another view, to the parent layout, or to an invisible guideline. In a ConstraintLayout, you position a view by defining at least one horizontal and one vertical constraint.
+
+### Why Data Binding
+
+#### Why not findViewById
+Every time you use `findViewById()` to search for a view after the view is created or recreated, the Android system traverses the view hierarchy at runtime to find it. When your app has only a handful of views, this is not a problem. However, production apps may have dozens of views in a layout, and even with the best design, there will be nested views. 
+
+Think of a linear layout that contains a scroll view that contains a text view. For a large or deep view hierarchy, finding a view can take enough time that it can noticeably slow down the app for the user. Caching views in variables can help, but you still have to initialize a variable for each view, in each namespace. With lots of views and multiple activities, this adds up, too.
+
+#### How does databinding work?
+One solution is to create an object that contains a reference to each view. This object, called a `Binding` object, can be used by your whole app. This technique is called data binding. Once a binding object has been created for your app, you can access the views, and other data, through the binding object, without having to traverse the view hierarchy or search for the data.
+
+#### Data Binding Benefits
+Data binding has the following benefits:
+
+- Code is shorter, easier to read, and easier to maintain than code that uses findViewById().
+- Data and views are clearly separated. This benefit of data binding becomes increasingly important later in this course.
+- The Android system only traverses the view hierarchy once to get each view, and it happens during app startup, not at runtime when the user is interacting with the app.
+- You get type safety for accessing views. (Type safety means that the compiler validates types while compiling, and it throws an error if you try to assign the wrong type to a variable.)
