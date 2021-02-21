@@ -55,3 +55,7 @@ LinearLayout is a view group that arranges its child views horizontally or verti
 ### ViewGroup
 ViewGroup is a view that can contain other views. LinearLayout and ScrollView are view groups.
 
+### Constraint Layout
+A `ConstraintLayout` is a `ViewGroup` that allows you to position and size child views in a flexible way. A ConstraintLayout allows you to create large, complex layouts with flat view hierarchies (no nested view groups). To build a ConstraintLayout, you can use the Layout Editor to add constraints, and to drag-and-drop views. You don't need to edit the XML
+#### Constraints
+A constraint is a connection or alignment between two UI elements. Each constraint connects or aligns one view to another view, to the parent layout, or to an invisible guideline. In a ConstraintLayout, you position a view by defining at least one horizontal and one vertical constraint.
