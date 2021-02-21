@@ -2,6 +2,16 @@
 
 Some random facts and info, which can be useful for people just starting out with Android, or might be useful for interviews etc. Found while learning Android during Study Jams.
 
+- [Trivia](#trivia)
+  - [No main.kt?](#no-mainkt)
+  - [Layout Inflation](#layout-inflation)
+  - [AppCompatActivity](#appcompatactivity)
+  - [lateinit](#lateinit)
+  - [Right-Left vs Start-End](#right-left-vs-start-end)
+  - [ScrollView](#scrollview)
+  - [LinearLayout](#linearlayout)
+  - [ViewGroup](#viewgroup)
+
 ### No main.kt?
 
 Many programming languages define a main method that starts the program. **Android apps don't have a main method**. Instead, the AndroidManifest.xml file indicates that MainActivity should be launched when the user taps the app's launcher icon. To launch an activity, the Android OS uses the information in the manifest to set up the environment for the app and construct the MainActivity. Then the MainActivity does some setup in turn.
@@ -17,3 +27,31 @@ AppCompatActivity is a subclass of Activity that supports all modern Android fea
 ### lateinit
 
 The `lateinit` keyword promises the Kotlin compiler that the variable will be initialized before the code calls any operations on it. Therefore we don't need to initialize the variable to null here, and we can treat it as a non-nullable variable when we use it. It is a best practice to use lateinit with fields that hold views in just this way.
+
+### Right-Left vs Start-End
+Right/left versus start/end
+
+"Right" and "left" always refer to the right and left sides of the screen, whether your app uses a left-to-right (LTR) flow or a right-to-left (RTL) flow. "Start" and "end" always refer to the start and end of the flow:
+
+For a LTR flow, start = left and end=right.
+For a RTL flow, start=right and end=left.
+If your app targets API level 17 (Android 4.2) or higher:
+
+Use "start" and "end" instead of "left" and "right".
+For example, android:layout_marginLeft should become android:layout_marginStart to support RTL languages.
+If you want your app to work with versions lower than Android 4.2; that is, if the app's targetSdkVersion or minSdkVersion is 16 or lower:
+
+Add "start" and end" in addition to "left" and "right".
+For example, use both android:paddingLeft and android:paddingStart.
+
+### ScrollView
+A ScrollView is a view group that allows the view hierarchy placed within it to be scrolled. A scroll view can contain only one other view, or view group, as a child. The child view is commonly a LinearLayout. Inside a LinearLayout, you can add other views.
+
+Use a ScrollView when you need to display content on the screen, such as long text or a collection of images. A scroll view can contain only one child view. If you want to scroll more than one view, then add a ViewGroup such as a LinearLayout to the ScrollView, and put the views to be scrolled inside that ViewGroup
+
+### LinearLayout
+LinearLayout is a view group that arranges its child views horizontally or vertically.
+
+### ViewGroup
+ViewGroup is a view that can contain other views. LinearLayout and ScrollView are view groups.
+
