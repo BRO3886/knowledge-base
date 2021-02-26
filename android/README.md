@@ -3,7 +3,6 @@
 Some Android Basics, trivia etc., or stuff I'd like to go back to, once in a while. Fair warning, you might find random code snippets and kitchen recipies too :P
 
 ## Index
-
 * [Study Jams Resources](./studyjams)
 
 ## Official Resources
@@ -15,3 +14,6 @@ Some Android Basics, trivia etc., or stuff I'd like to go back to, once in a whi
 * [Publishing on Google Play](https://developer.android.com/distribute/)
 * [Android Developers Youtube](https://www.youtube.com/user/androiddevelopers)
 * [Code Samples](https://github.com/googlesamples)
+
+## Jetpack Compose
+* [Jetpack Compose Beta Livestream](https://www.youtube.com/watch?v=vRjJAWh6JPE)
