@@ -14,7 +14,3 @@ drive.mount('/content/drive')
 
 !jupyter nbconvert --to PDF "Untitled.ipynb"
 ```
-
-## Selenium
-
-`pip install selenium`

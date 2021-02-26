@@ -1,5 +1,15 @@
 # Flutter
 
+- [Flutter](#flutter)
+  - [How does it work?](#how-does-it-work)
+  - [Build for Prod, suggested links](#build-for-prod-suggested-links)
+    - [Videos](#videos)
+    - [Packages](#packages)
+  - [TODO](#todo)
+
+## How does it work?
+- [The Layer Cake](https://medium.com/flutter-community/the-layer-cake-widgets-elements-renderobjects-7644c3142401)
+- [Inside Flutter](https://flutter.dev/docs/resources/inside-flutter)
 ## Build for Prod, suggested links
 
 ### Videos
@@ -18,4 +28,11 @@
 - https://pub.dev/packages/functional_data
 - https://pub.dev/packages/supercharged
 - https://pub.dev/packages/kt_dart
-  
+
+## TODO
+
+- [ ] Revise unit testing
+- [ ] Stacked Arch
+- [ ] Autoroute
+- [ ] UI and integration testing
+- [ ] Navigator 2.0

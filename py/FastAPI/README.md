@@ -17,5 +17,5 @@
 ## Trivia
 * **Hosting on Heroku**
 ```
-web: uvicorn path.to.folder.which.has.app:app --host=0.0.0.0 --port=${PORT:-5000}
+web: uvicorn path.to.folder.which.has.app:app --host=0.0.0.0 --port=${PORT:-5000} 
 ```
