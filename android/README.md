@@ -15,5 +15,7 @@ Some Android Basics, trivia etc., or stuff I'd like to go back to, once in a whi
 * [Android Developers Youtube](https://www.youtube.com/user/androiddevelopers)
 * [Code Samples](https://github.com/googlesamples)
 
+## Hilt
+- [Intro](https://youtu.be/B56oV3IHMxg)
 ## Jetpack Compose
 * [Jetpack Compose Beta Livestream](https://www.youtube.com/watch?v=vRjJAWh6JPE)
