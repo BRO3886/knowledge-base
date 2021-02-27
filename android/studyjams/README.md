@@ -1,8 +1,8 @@
-## Trivia
+## Android StudyJams
 
 Some random facts and info, which can be useful for people just starting out with Android, or might be useful for interviews etc. Found while learning Android during Study Jams.
 
-- [Trivia](#trivia)
+- [Android StudyJams](#android-studyjams)
   - [No main.kt?](#no-mainkt)
   - [Layout Inflation](#layout-inflation)
   - [AppCompatActivity](#appcompatactivity)
