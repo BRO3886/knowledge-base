@@ -1,1 +1,3 @@
 # js
+
+* [Randoms]("/snippets.md)
