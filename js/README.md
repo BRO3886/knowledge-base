@@ -1,3 +1,3 @@
 # js
 
-* [Randoms]("/snippets.md)
+* [Randoms](./snippets.md)
