@@ -17,5 +17,8 @@ Some Android Basics, trivia etc., or stuff I'd like to go back to, once in a whi
 
 ## Hilt
 - [Intro](https://youtu.be/B56oV3IHMxg)
+
 ## Jetpack Compose
 * [Jetpack Compose Beta Livestream](https://www.youtube.com/watch?v=vRjJAWh6JPE)
+* [Compose CookBook (Demos)](https://github.com/Gurupreet/ComposeCookBook)
+* [Learn Jetpack Compose By Example](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example)
