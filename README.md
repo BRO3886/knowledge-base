@@ -9,7 +9,7 @@ Repo for stuff I need to refer, useful snippets, learning etc.  Inspired by [Sph
 * [Flutter](/flutter)
 * [Go](/go)
 * [Javascript](/js)
-* [Kotlin](/kt)
+* [Kotlin](/Kotlin)
 * [ML](/ML)
 * [Node](/node)
 * [Python](/py)
