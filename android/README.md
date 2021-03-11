@@ -2,7 +2,9 @@
 
 Some Android Basics, trivia etc., or stuff I'd like to go back to, once in a while. Fair warning, you might find random code snippets and kitchen recipies too :P
 
+## Table of Contents
 - [Android](#android)
+  - [Table of Contents](#table-of-contents)
   - [Pages](#pages)
   - [Official Resources](#official-resources)
   - [Hilt](#hilt)
