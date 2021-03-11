@@ -7,7 +7,7 @@ Repo for stuff I need to refer, useful snippets, learning etc.  Inspired by [Sph
 * [Django](/django)
 * [DSA](/dsa)
 * [Flutter](/flutter)
-* [Go](/go)
+* [Go](/Go)
 * [Javascript](/js)
 * [Kotlin](/Kotlin)
 * [ML](/ML)
