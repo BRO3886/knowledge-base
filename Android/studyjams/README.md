@@ -17,6 +17,7 @@ Some random facts and info, which can be useful for people just starting out wit
     - [Why not findViewById](#why-not-findviewbyid)
     - [How does databinding work?](#how-does-databinding-work)
     - [Data Binding Benefits](#data-binding-benefits)
+  - [Fragment](#fragment)
 
 ### No main.kt?
 
@@ -83,3 +84,13 @@ Data binding has the following benefits:
 - Data and views are clearly separated. This benefit of data binding becomes increasingly important later in this course.
 - The Android system only traverses the view hierarchy once to get each view, and it happens during app startup, not at runtime when the user is interacting with the app.
 - You get type safety for accessing views. (Type safety means that the compiler validates types while compiling, and it throws an error if you try to assign the wrong type to a variable.)
+
+### Fragment
+A Fragment represents a behavior or a portion of user interface (UI) in an Activity. You can combine multiple fragments in a single activity to build a multi-pane UI, and you can reuse a Fragment in multiple activities.
+
+Think of a Fragment as a modular section of an activity, something like a "sub-activity" that you can also use in other activities:
+
+* A Fragment has its own lifecycle and receives its own input events.
+* You can add or remove a Fragment while the activity is running.
+* A Fragment is defined in a Kotlin class.
+* A Fragment's UI is defined in an XML layout file.
