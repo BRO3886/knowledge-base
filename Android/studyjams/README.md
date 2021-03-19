@@ -94,3 +94,4 @@ Think of a Fragment as a modular section of an activity, something like a "sub-a
 * You can add or remove a Fragment while the activity is running.
 * A Fragment is defined in a Kotlin class.
 * A Fragment's UI is defined in an XML layout file.
+* To make the Fragment compile, you need to create a binding object and inflate the Fragment's view (which is equivalent to using `setContentView()` for an Activity).
