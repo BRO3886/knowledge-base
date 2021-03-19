@@ -1,5 +1,9 @@
 ## Code Snippets
 
+- [Code Snippets](#code-snippets)
+  - [Show or Hide Keyboard](#show-or-hide-keyboard)
+  - [Enabling Data Binding](#enabling-data-binding)
+  - [Add Navigation components to project](#add-navigation-components-to-project)
 ### Show or Hide Keyboard
 * show keyboard
 ```kt
@@ -30,3 +34,23 @@ To work with data binding, you need to wrap your XML layout with a `<layout>` ta
    </LinearLayout>
 </layout>
 ```
+
+### Add Navigation components to project
+* At the top of the project-level build.gradle file, along with the other ext variables, add a variable for the navigationVersion. To find the latest navigation version number, see Declaring dependencies in the Android developer documentation.
+```gradle
+ext {
+        ...
+        navigationVersion = "2.3.0"
+        ...
+    }
+```
+* In the Gradle Scripts folder, open the module-level build.gradle file. Add the dependencies for navigation-fragment-ktx and navigation-ui-ktx, as shown below:
+```gradle
+dependencies {
+  ...
+  implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
+  implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+  ...
+}
+```
+* Finally create a Navigation resource in `res` directory

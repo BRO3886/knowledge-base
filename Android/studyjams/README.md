@@ -18,6 +18,7 @@ Some random facts and info, which can be useful for people just starting out wit
     - [How does databinding work?](#how-does-databinding-work)
     - [Data Binding Benefits](#data-binding-benefits)
   - [Fragment](#fragment)
+  - [Navigation Component](#navigation-component)
 
 ### No main.kt?
 
@@ -95,3 +96,9 @@ Think of a Fragment as a modular section of an activity, something like a "sub-a
 * A Fragment is defined in a Kotlin class.
 * A Fragment's UI is defined in an XML layout file.
 * To make the Fragment compile, you need to create a binding object and inflate the Fragment's view (which is equivalent to using `setContentView()` for an Activity).
+
+### Navigation Component
+The Navigation component consists of three key parts that are described below:
+1. **Navigation graph**: An XML resource that contains all navigation-related information in one centralized location. This includes all of the individual content areas within your app, called destinations, as well as the possible paths that a user can take through your app.
+2. **NavHost**: An empty container that displays destinations from your navigation graph. The Navigation component contains a default NavHost implementation, NavHostFragment, that displays fragment destinations.
+3. **NavController**: An object that manages app navigation within a NavHost. The NavController orchestrates the swapping of destination content in the NavHost as users move throughout your app.
