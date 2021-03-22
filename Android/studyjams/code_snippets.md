@@ -4,14 +4,15 @@
   - [Show or Hide Keyboard](#show-or-hide-keyboard)
   - [Enabling Data Binding](#enabling-data-binding)
   - [Add Navigation components to project](#add-navigation-components-to-project)
+  - [Adding a Menu item](#adding-a-menu-item)
 ### Show or Hide Keyboard
 * show keyboard
-```kt
+```kotlin
 val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
 imm.showSoftInput(editText, 0)
 ```
 * hide keyboard
-```kt
+```kotlin
 val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
 imm.hideSoftInputFromWindow(view.windowToken, 0)
 ```
@@ -54,3 +55,32 @@ dependencies {
 }
 ```
 * Finally create a Navigation resource in `res` directory
+
+### Adding a Menu item
+* After the UI is done, follow the following steps:
+* Open the TitleFragment.kt Kotlin file. Inside the `onCreateView()` method, before the return, call the `setHasOptionsMenu()` method and pass in true.
+```kotlin
+override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+                         savedInstanceState: Bundle?): View? {
+   ...
+   setHasOptionsMenu(true)
+   return binding.root
+}
+```
+
+* After the `onCreateView()` method, override the `onCreateOptionsMenu()` method. In the method, add the options menu and inflate the menu resource file.
+```kotlin
+override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+        inflater.inflate(R.menu.options_menu, menu)
+}
+```
+* Override the `onOptionsItemSelected()` method to take the appropriate action when the menu item is tapped. In this case, the action is to navigate to the Fragment that has the same id as the selected menu item.
+```kotlin
+override fun onOptionsItemSelected(item: MenuItem): Boolean {
+     return NavigationUI.
+            onNavDestinationSelected(item,requireView().findNavController())
+            || super.onOptionsItemSelected(item)
+}
+```
+* If the app doesn't build, check to see whether you need to import packages to fix unresolved references in the code. For example, you can add `import android.view.*` to resolve several references (and replace more specific imports such as `import android.view.ViewGroup`).
