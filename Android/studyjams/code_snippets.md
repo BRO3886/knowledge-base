@@ -17,6 +17,7 @@ imm.showSoftInput(editText, 0)
 val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
 imm.hideSoftInputFromWindow(view.windowToken, 0)
 ```
+
 ### Enabling Data Binding
 * To use data binding, you need to enable data binding in your Gradle file, as it's not enabled by default. This is because data binding increases compile time and may affect app startup time.
 
