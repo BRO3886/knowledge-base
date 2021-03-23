@@ -2,7 +2,10 @@
 
 Some random facts and info, which can be useful for people just starting out with Android, or might be useful for interviews etc. Found while learning Android during Study Jams.
 
+## Contents
 - [Android StudyJams](#android-studyjams)
+  - [Contents](#contents)
+  - [Pages](#pages)
   - [No main.kt?](#no-mainkt)
   - [Layout Inflation](#layout-inflation)
   - [AppCompatActivity](#appcompatactivity)
@@ -20,6 +23,9 @@ Some random facts and info, which can be useful for people just starting out wit
   - [Fragment](#fragment)
   - [Navigation Component](#navigation-component)
   - [SafeArgs](#safeargs)
+
+## Pages
+* [Code Snippets](./code_snippets.md)
 
 ## No main.kt?
 
