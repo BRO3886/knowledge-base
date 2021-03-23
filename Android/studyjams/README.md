@@ -1,4 +1,4 @@
-## Android StudyJams
+# Android StudyJams
 
 Some random facts and info, which can be useful for people just starting out with Android, or might be useful for interviews etc. Found while learning Android during Study Jams.
 
@@ -12,31 +12,32 @@ Some random facts and info, which can be useful for people just starting out wit
   - [LinearLayout](#linearlayout)
   - [ViewGroup](#viewgroup)
   - [Constraint Layout](#constraint-layout)
-    - [Constraints](#constraints)
+  - [Constraints](#constraints)
   - [Why Data Binding](#why-data-binding)
     - [Why not findViewById](#why-not-findviewbyid)
     - [How does databinding work?](#how-does-databinding-work)
     - [Data Binding Benefits](#data-binding-benefits)
   - [Fragment](#fragment)
   - [Navigation Component](#navigation-component)
+  - [SafeArgs](#safeargs)
 
-### No main.kt?
+## No main.kt?
 
 Many programming languages define a main method that starts the program. **Android apps don't have a main method**. Instead, the AndroidManifest.xml file indicates that MainActivity should be launched when the user taps the app's launcher icon. To launch an activity, the Android OS uses the information in the manifest to set up the environment for the app and construct the MainActivity. Then the MainActivity does some setup in turn.
 
-### Layout Inflation
+## Layout Inflation
 
 Each activity has an associated layout file. The activity and the layout are connected by a process known as layout inflation. When the activity starts, the views that are defined in the XML layout files are turned into (or "inflated" into) Kotlin view objects in memory. Once this happens, the activity can draw these objects to the screen and also dynamically modify them.
 
-### AppCompatActivity
+## AppCompatActivity
 
 AppCompatActivity is a subclass of Activity that supports all modern Android features while providing backward compatibility with older versions of Android. To make your app available to the largest number of devices and users possible, always use AppCompatActivity.
 
-### lateinit
+## lateinit
 
 The `lateinit` keyword promises the Kotlin compiler that the variable will be initialized before the code calls any operations on it. Therefore we don't need to initialize the variable to null here, and we can treat it as a non-nullable variable when we use it. It is a best practice to use lateinit with fields that hold views in just this way.
 
-### Right-Left vs Start-End
+## Right-Left vs Start-End
 Right/left versus start/end
 
 "Right" and "left" always refer to the right and left sides of the screen, whether your app uses a left-to-right (LTR) flow or a right-to-left (RTL) flow. "Start" and "end" always refer to the start and end of the flow:
@@ -52,33 +53,33 @@ If you want your app to work with versions lower than Android 4.2; that is, if t
 Add "start" and end" in addition to "left" and "right".
 For example, use both android:paddingLeft and android:paddingStart.
 
-### ScrollView
+## ScrollView
 A ScrollView is a view group that allows the view hierarchy placed within it to be scrolled. A scroll view can contain only one other view, or view group, as a child. The child view is commonly a LinearLayout. Inside a LinearLayout, you can add other views.
 
 Use a ScrollView when you need to display content on the screen, such as long text or a collection of images. A scroll view can contain only one child view. If you want to scroll more than one view, then add a ViewGroup such as a LinearLayout to the ScrollView, and put the views to be scrolled inside that ViewGroup
 
-### LinearLayout
+## LinearLayout
 LinearLayout is a view group that arranges its child views horizontally or vertically.
 
-### ViewGroup
+## ViewGroup
 ViewGroup is a view that can contain other views. LinearLayout and ScrollView are view groups.
 
-### Constraint Layout
+## Constraint Layout
 A `ConstraintLayout` is a `ViewGroup` that allows you to position and size child views in a flexible way. A ConstraintLayout allows you to create large, complex layouts with flat view hierarchies (no nested view groups). To build a ConstraintLayout, you can use the Layout Editor to add constraints, and to drag-and-drop views. You don't need to edit the XML
-#### Constraints
+## Constraints
 A constraint is a connection or alignment between two UI elements. Each constraint connects or aligns one view to another view, to the parent layout, or to an invisible guideline. In a ConstraintLayout, you position a view by defining at least one horizontal and one vertical constraint.
 
-### Why Data Binding
+## Why Data Binding
 
-#### Why not findViewById
+### Why not findViewById
 Every time you use `findViewById()` to search for a view after the view is created or recreated, the Android system traverses the view hierarchy at runtime to find it. When your app has only a handful of views, this is not a problem. However, production apps may have dozens of views in a layout, and even with the best design, there will be nested views. 
 
 Think of a linear layout that contains a scroll view that contains a text view. For a large or deep view hierarchy, finding a view can take enough time that it can noticeably slow down the app for the user. Caching views in variables can help, but you still have to initialize a variable for each view, in each namespace. With lots of views and multiple activities, this adds up, too.
 
-#### How does databinding work?
+### How does databinding work?
 One solution is to create an object that contains a reference to each view. This object, called a `Binding` object, can be used by your whole app. This technique is called data binding. Once a binding object has been created for your app, you can access the views, and other data, through the binding object, without having to traverse the view hierarchy or search for the data.
 
-#### Data Binding Benefits
+### Data Binding Benefits
 Data binding has the following benefits:
 
 - Code is shorter, easier to read, and easier to maintain than code that uses findViewById().
@@ -86,7 +87,7 @@ Data binding has the following benefits:
 - The Android system only traverses the view hierarchy once to get each view, and it happens during app startup, not at runtime when the user is interacting with the app.
 - You get type safety for accessing views. (Type safety means that the compiler validates types while compiling, and it throws an error if you try to assign the wrong type to a variable.)
 
-### Fragment
+## Fragment
 A Fragment represents a behavior or a portion of user interface (UI) in an Activity. You can combine multiple fragments in a single activity to build a multi-pane UI, and you can reuse a Fragment in multiple activities.
 
 Think of a Fragment as a modular section of an activity, something like a "sub-activity" that you can also use in other activities:
@@ -97,8 +98,13 @@ Think of a Fragment as a modular section of an activity, something like a "sub-a
 * A Fragment's UI is defined in an XML layout file.
 * To make the Fragment compile, you need to create a binding object and inflate the Fragment's view (which is equivalent to using `setContentView()` for an Activity).
 
-### Navigation Component
+## Navigation Component
 The Navigation component consists of three key parts that are described below:
 1. **Navigation graph**: An XML resource that contains all navigation-related information in one centralized location. This includes all of the individual content areas within your app, called destinations, as well as the possible paths that a user can take through your app.
 2. **NavHost**: An empty container that displays destinations from your navigation graph. The Navigation component contains a default NavHost implementation, NavHostFragment, that displays fragment destinations.
 3. **NavController**: An object that manages app navigation within a NavHost. The NavController orchestrates the swapping of destination content in the NavHost as users move throughout your app.
+
+## SafeArgs
+The Navigation component has a Gradle plugin called `Safe Args` that generates simple object and builder classes for type-safe navigation and access to any associated arguments. Safe Args is strongly recommended for navigating and passing data, because it ensures type-safety.
+
+Often your app will need to pass data between fragments. One way to pass data from one Fragment to another is to use an instance of the `Bundle` class. An Android `Bundle` is a key-value store.
