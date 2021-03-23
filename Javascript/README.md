@@ -1,3 +1,3 @@
-# js
+# Javascript
 
 * [Randoms](./snippets.md)
