@@ -1,11 +1,15 @@
 # Flutter
 
 - [Flutter](#flutter)
+  - [Pages](#pages)
   - [How does it work?](#how-does-it-work)
   - [Build for Prod, suggested links](#build-for-prod-suggested-links)
     - [Videos](#videos)
     - [Packages](#packages)
   - [TODO](#todo)
+
+## Pages
+- [Snippets](./snippets.md)
 
 ## How does it work?
 - [The Layer Cake](https://medium.com/flutter-community/the-layer-cake-widgets-elements-renderobjects-7644c3142401)
