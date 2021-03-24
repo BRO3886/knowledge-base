@@ -1,11 +1,12 @@
 # Useful Code Snippets
+Random useful code snippets I'd have to reference time and again
 
 ## Table of Contents
 - [Useful Code Snippets](#useful-code-snippets)
   - [Table of Contents](#table-of-contents)
-  - [Generate APK and send on Telegram Channel](#generate-apk-and-send-on-telegram-channel)
+  - [Github Action: APK Gen](#github-action-apk-gen)
 
-## Generate APK and send on Telegram Channel
+## Github Action: APK Gen
 
 ```yaml
 name: Flutter CI
