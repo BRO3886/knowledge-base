@@ -1,5 +1,5 @@
 # Systems
 idk, systems stuff maybe
 
-## Contents
+## Pages
 * [Rust](./Rust)
