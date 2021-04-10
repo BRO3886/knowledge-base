@@ -4,6 +4,7 @@ Repo for stuff I need to refer, useful snippets, learning etc.  Inspired by [Sph
 ## Contents
 * [AppDev](./AppDev)
 * [Backend](./Backend)
+* [Design](./Design)
 * [DSA](./DSA)
 * [Frontend](./Frontend)
 * [Javascript](./Javascript)
