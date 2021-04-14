@@ -2,6 +2,7 @@
 
 ## Index
 * [Useful Packages](./Packages.md)
+* [Code Snippets](./code_snippets.md)
 
 ## TODO
 * [ ] Testing

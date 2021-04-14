@@ -1,6 +1,11 @@
 # Code Snippets
 
-## Runnning Sentry as middleware with custom logging on context
+## Contents
+- [Code Snippets](#code-snippets)
+	- [Contents](#contents)
+	- [Runnning Sentry as middleware with custom logging on context](#runnning-sentry-as-middleware-with-custom-logging-on-context)
+
+### Runnning Sentry as middleware with custom logging on context
 ```go
 package logger
 
