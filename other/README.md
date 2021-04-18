@@ -1,4 +1,7 @@
 # Other
+Techincal, non technical, health, careeer and life stuff
 
-- [Demystifying Off-Campus Placements](https://medium.com/@ayushpriya10/demystifying-off-campus-placements-9950d44735ee)
-- [Global Slack Outage - Hussein Naseer](https://youtu.be/dhZ5--R42AM)
+## Contents
+- [Career Related](Career/README.md)
+- [Life Related](Life/README.md)
+- [Marketing](Marketing/README.md)
