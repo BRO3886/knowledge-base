@@ -8,6 +8,7 @@
 ## Frameworks
 * [Gin](https://github.com/gin-gonic/gin)
 * [Fiber](https://github.com/gofiber/fiber)
+* [Go kit - A standard library for microservices](https://github.com/go-kit/kit)
 
 ## Testing
 * [Testify](https://github.com/stretchr/testify)
