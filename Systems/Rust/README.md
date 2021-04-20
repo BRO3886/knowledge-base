@@ -14,6 +14,7 @@
 * [uutils/coreutils - Cross-platform Rust rewrite of the GNU coreutils](https://github.com/uutils/coreutils)
 * [SergioBenitez/rocket - Web Framework for Rust](https://github.com/SergioBenitez/Rocket)
 * [supercmmetry/jirachi - Collision-resistant runtime agnostic key generator](https://github.com/supercmmetry/jirachi)
+* [tbillington/kondo - Save disk space by cleaning non-essential files from software projects](https://github.com/tbillington/kondo)
 
 ## Projects
 * [SphericalKat/Katbin - Pastebin and URL shortener](https://github.com/SphericalKat/katbin)

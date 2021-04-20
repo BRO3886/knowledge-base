@@ -10,6 +10,7 @@
   - [TODO](#todo)
 
 ## Pages
+- [My Blogs](./My%20Blogs.md)
 - [Snippets](./snippets.md)
 
 ## How does it work?
