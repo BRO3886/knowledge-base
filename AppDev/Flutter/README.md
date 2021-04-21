@@ -3,6 +3,7 @@
 - [Flutter](#flutter)
   - [Pages](#pages)
   - [How does it work?](#how-does-it-work)
+  - [Blogs](#blogs)
   - [Packages](#packages)
   - [Build for Prod, suggested links](#build-for-prod-suggested-links)
     - [Videos](#videos)
@@ -16,6 +17,9 @@
 ## How does it work?
 - [The Layer Cake](https://medium.com/flutter-community/the-layer-cake-widgets-elements-renderobjects-7644c3142401)
 - [Inside Flutter](https://flutter.dev/docs/resources/inside-flutter)
+
+## Blogs
+- [Automatically generate native code for adding splash screens with flutter](https://flutterawesome.com/automatically-generate-native-code-for-adding-splash-screens-with-flutter/)
 
 ## Packages
 - [Flutter Chat UI - community-driven chat UI implementation with an optional Firebase BaaS.](https://github.com/flyerhq/flutter_chat_ui)
