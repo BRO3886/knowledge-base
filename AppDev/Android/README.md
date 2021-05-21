@@ -10,6 +10,7 @@ Some Android Basics, trivia etc., or stuff I'd like to go back to, once in a whi
   - [Hilt](#hilt)
   - [Jetpack Compose](#jetpack-compose)
   - [MAD (Modern Android Developer) Skills](#mad-modern-android-developer-skills)
+  - [Blogs](#blogs)
 
 ## Pages
 * [Study Jams Resources](./studyjams)
@@ -39,3 +40,7 @@ Some Android Basics, trivia etc., or stuff I'd like to go back to, once in a whi
 * [Material Design Components](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8SmtMNw34wvYkqj45rV1d3)
 * [Motion Layout](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc_PEOEHNBEyy6tPX1EgtUw2)
 * [Work Manager](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc_J88-h0PhCO_aV0HIAs9Qk)
+
+## Blogs
+- [Migrating from LiveData to Kotlin’s Flow | by Jose Alcérreca | Android Developers | May, 2021 | Medium](https://medium.com/androiddevelopers/migrating-from-livedata-to-kotlins-flow-379292f419fb)
+- [Hilt is stable! Easier dependency injection on Android | by Manuel Vivo | Android Developers | May, 2021 | Medium](https://medium.com/androiddevelopers/hilt-is-stable-easier-dependency-injection-on-android-53aca3f38b9c)
