@@ -5,8 +5,9 @@
   - [How does it work?](#how-does-it-work)
   - [Blogs](#blogs)
   - [Packages](#packages)
+  - [Videos](#videos)
   - [Build for Prod, suggested links](#build-for-prod-suggested-links)
-    - [Videos](#videos)
+    - [Videos](#videos-1)
     - [Packages](#packages-1)
   - [TODO](#todo)
 
@@ -20,6 +21,8 @@
 
 ## Blogs
 - [Automatically generate native code for adding splash screens with flutter](https://flutterawesome.com/automatically-generate-native-code-for-adding-splash-screens-with-flutter/)
+- [How to dockerize Flutter apps | Codemagic Blog](https://blog.codemagic.io/how-to-dockerize-flutter-apps/)
+- [Performance testing of Flutter apps | by Filip Hracek | Flutter | Medium](https://medium.com/flutter/performance-testing-of-flutter-apps-df7669bb7df7)
 
 ## Packages
 - [Flutter Chat UI - community-driven chat UI implementation with an optional Firebase BaaS.](https://github.com/flyerhq/flutter_chat_ui)
@@ -27,6 +30,8 @@
 - [Lint - An opiniated, community-driven set of lint rules for Dart and Flutter projects](https://pub.dev/packages/lint)
 - [Supercharged - brings all the comfort features from languages like Kotlin to all Flutter developers.](https://pub.dev/packages/supercharged)
 
+## Videos
+- [How I Became a Google Developer Expert (GDE) - YouTube](https://www.youtube.com/watch?v=gIitRv_NfJc)
 ## Build for Prod, suggested links
 
 ### Videos
