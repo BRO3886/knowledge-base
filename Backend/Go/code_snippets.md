@@ -3,10 +3,10 @@
 ## Contents
 - [Code Snippets](#code-snippets)
 	- [Contents](#contents)
-	- [Type Switch](#type-switch)
+		- [Type Switch](#type-switch)
 		- [Runnning Sentry as middleware with custom logging on context](#runnning-sentry-as-middleware-with-custom-logging-on-context)
 
-## Type Switch
+### Type Switch
 Type switches
 A type switch is a construct that permits several type assertions in series.
 
