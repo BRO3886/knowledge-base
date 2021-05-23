@@ -5,6 +5,8 @@
 * [Code Snippets](./code_snippets.md)
 
 ## Blogs
+* [Go Concurrency Patterns: Pipelines and cancellation - The Go Blog](https://blog.golang.org/pipelines)
+* [Practical Go – The acme of foolishness](https://dave.cheney.net/practical-go)
 * [Go vs C# (3 Part series)](https://medium.com/servicetitan-engineering/go-vs-c-part-3-compiler-runtime-type-system-modules-and-everything-else-faa423dddb34)
 * [Writing a reverse proxy in Go](https://developer20.com/writing-proxy-in-go/)
 * [Oauth2 and Go](https://developer20.com/oauth2-and-go/)
