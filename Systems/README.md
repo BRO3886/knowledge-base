@@ -11,3 +11,4 @@ idk, systems stuff maybe
 
 ## Blogs
 - [notify-send replacement for WSL](https://codelearn.me/2019/01/13/wsl-windows-toast.html)
+- [donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.](https://github.com/donnemartin/system-design-primer)

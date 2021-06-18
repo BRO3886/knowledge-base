@@ -1,8 +1,13 @@
 # Go
 
-## Contents
-* [Useful Packages](./Packages.md)
-* [Code Snippets](./code_snippets.md)
+- [Go](#go)
+  - [Blogs](#blogs)
+  - [Packages](#packages)
+    - [Database](#database)
+    - [Frameworks](#frameworks)
+    - [Testing](#testing)
+    - [Utility](#utility)
+  - [TODO](#todo)
 
 ## Blogs
 * [Go Concurrency Patterns: Pipelines and cancellation - The Go Blog](https://blog.golang.org/pipelines)
@@ -14,6 +19,30 @@
 * [Pass a Golang job interview](https://medium.com/p-society/pass-a-golang-job-interview-bfb6ea83b457)
 * [Why go and not rust](https://kristoff.it/blog/why-go-and-not-rust/)
 * [Half a million lines of Go](https://blog.khanacademy.org/half-a-million-lines-of-go/)
+
+## Packages
+### Database
+* [Gorm - Fully fleged ORM](https://github.com/go-gorm/gorm)
+* [go-pg - Postgres](https://github.com/go-pg/pg)
+* [Mongo-go - MongoDB](https://github.com/mongodb/mongo-go-driver)
+
+### Frameworks
+* [Gin](https://github.com/gin-gonic/gin)
+* [Fiber](https://github.com/gofiber/fiber)
+* [Go kit - A standard library for microservices](https://github.com/go-kit/kit)
+* [Echo - High performance, minimalist Go web framework](https://echo.labstack.com/)
+
+### Testing
+* [Testify](https://github.com/stretchr/testify)
+* [Ginkgo - BDD](https://onsi.github.io/ginkgo/)
+
+### Utility
+* [OSext - extensions to the OS package](https://github.com/kardianos/osext)
+* [Cobra - CLI Tools](https://github.com/spf13/cobra)
+* [Viper - Config Management](https://github.com/spf13/viper)
+* [Color - Coloring output for console](https://github.com/fatih/color)
+* [Logrus - Logging](https://github.com/sirupsen/logrus)
+
 
 ## TODO
 * [ ] Testing

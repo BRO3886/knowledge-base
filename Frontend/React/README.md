@@ -9,3 +9,4 @@ React blogs, videos, projects I come across.
 
 ## Projects
 - [pmndrs/use-gesture: 👇Bread n butter utility for component-tied mouse/touch gestures in React](https://github.com/pmndrs/use-gesture)
+- [vadimdemedes/ink: 🌈 React for interactive command-line apps](https://github.com/vadimdemedes/ink)

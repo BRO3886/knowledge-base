@@ -11,3 +11,9 @@ Frontend resources, mostly React and Vue prolly
 
 ## Videos
 * [Do you understand how Flexbox does what it does?](https://youtu.be/9e-lWQdO-DA)
+
+## Projects
+- [vitejs/vite: Next generation frontend tooling. It's fast!](https://github.com/vitejs/vite)
+- [evanw/esbuild: An extremely fast JavaScript bundler and minifier](https://github.com/evanw/esbuild)
+- [Miodec/monkeytype: A minimalistic typing test](https://github.com/Miodec/monkeytype)
+- 

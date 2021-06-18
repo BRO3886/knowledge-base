@@ -18,3 +18,4 @@
 
 ## Projects
 * [SphericalKat/Katbin - Pastebin and URL shortener](https://github.com/SphericalKat/katbin)
+* [timvisee/ffsend: Easily and securely share files from the command line. A fully featured Firefox Send client.](https://github.com/timvisee/ffsend)
