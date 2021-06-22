@@ -7,7 +7,7 @@ Repo for stuff I need to refer, useful snippets, learning etc.  Inspired by [Sph
 * [Design](./Design)
 * [DSA](./DSA)
 * [Frontend](./Frontend)
-* [Javascript](./Javascript)
+* [Javascript & Typescript](./JS%20and%20TS)
 * [ML](./ML)
 * [Python](./Python)
 * [Systems](./Systems)

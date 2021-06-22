@@ -3,8 +3,27 @@
 ## Contents
 - [Code Snippets](#code-snippets)
 	- [Contents](#contents)
+		- [Go-acceptable time layouts](#go-acceptable-time-layouts)
 		- [Type Switch](#type-switch)
 		- [Runnning Sentry as middleware with custom logging on context](#runnning-sentry-as-middleware-with-custom-logging-on-context)
+
+### Go-acceptable time layouts
+| Go layout        | Java notation | C notation |
+|------------------|---------------|------------|
+| 2006-01-02       | yyyy-MM-dd	   | %F					|
+| 20060102         | yyyyMMdd	     | %Y%m%d			|
+| January 02, 2006 | MMMM dd, yyyy | %B %d, %Y	|
+| 02 January 2006	 | dd MMMM yyyy	 | %d %B %Y		|
+| 02-Jan-2006	     | dd-MMM-yyyy	 | %d-%b-%Y		|
+| 01/02/06				 | MM/dd/yy	     | %D					|
+| 01/02/2006	     | MM/dd/yyyy    | %m/%d/%Y		|
+| 010206					 | MMddyy	       | %m%d%y			|
+| Jan-02-06				 | MMM-dd-yy	   | %b-%d-%y		|
+| Jan-02-2006      | MMM-dd-yyyy	 | %b-%d-%Y		|
+| 06	             | yy	           | %y					|
+| Mon	             | EEE	         | %a					|
+| Monday					 | EEEE	         | %A					|
+| Jan-06					 | MMM-yy			   | %b-%y			|
 
 ### Type Switch
 Type switches
