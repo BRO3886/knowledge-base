@@ -1,6 +1,11 @@
 # React
 React blogs, videos, projects I come across.
 
+- [React](#react)
+  - [Blogs](#blogs)
+  - [Projects](#projects)
+  - [Videos](#videos)
+
 ## Blogs
 - [Using Cloudflare Workers and GitHub Actions to Deploy Statically Generated Sites - SphericalKat](https://medium.com/swlh/using-cloudflare-workers-and-github-actions-to-deploy-statically-generated-sites-c96b502d49c4)
 - [Create PDF files using React](https://reactjsexample.com/create-pdf-files-using-react/)
@@ -14,3 +19,6 @@ React blogs, videos, projects I come across.
 - [vadimdemedes/ink: 🌈 React for interactive command-line apps](https://github.com/vadimdemedes/ink)
 - [yuanyan/halogen: A collection of loading spinners with React.js](https://github.com/yuanyan/halogen)
 - [jpuri/react-draft-wysiwyg: A Wysiwyg editor build on top of ReactJS and DraftJS. https://jpuri.github.io/react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg)
+
+## Videos
+- [Optimize your React components with Memo - Design Patterns - YouTube](https://www.youtube.com/watch?v=02ZES2J1Lxk)
