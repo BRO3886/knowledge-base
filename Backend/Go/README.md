@@ -2,6 +2,7 @@
 
 - [Go](#go)
   - [Blogs](#blogs)
+  - [Videos](#videos)
   - [Packages](#packages)
     - [Database](#database)
     - [Frameworks](#frameworks)
@@ -19,6 +20,11 @@
 * [Pass a Golang job interview](https://medium.com/p-society/pass-a-golang-job-interview-bfb6ea83b457)
 * [Why go and not rust](https://kristoff.it/blog/why-go-and-not-rust/)
 * [Half a million lines of Go](https://blog.khanacademy.org/half-a-million-lines-of-go/)
+
+## Videos
+- [Understanding Allocations: the Stack and the Heap - GopherCon SG 2019 - YouTube](https://www.youtube.com/watch?v=ZMZpH4yT7M0)
+- [GopherCon 2019: Mat Ryer - How I Write HTTP Web Services after Eight Years - YouTube](https://www.youtube.com/watch?v=rWBSMsLG8po)
+- [GopherCon 2017: Kavya Joshi - Understanding Channels - YouTube](https://www.youtube.com/watch?v=KBZlN0izeiY)
 
 ## Packages
 ### Database
